@@ -12,7 +12,14 @@
 extern "C" {
 #endif
 
-
+    class RoboCrush
+    {
+    public:
+        void run();
+        void stop();
+        void attack(RoboCrush oponent);
+        int moveSide(int side);
+    };
 
 
 #ifdef	__cplusplus
